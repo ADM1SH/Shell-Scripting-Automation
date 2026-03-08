@@ -1,15 +1,11 @@
-# Shell Scripting & Automation
+# Shell Scripting & System Automation
 
-## Overview
-A collection of bash and shell scripts designed to automate repetitive tasks on a Unix-based system.
+## Description
+A collection of advanced shell scripts designed to streamline workflow and automate system tasks on macOS and Linux.
 
-## Key Scripts
-- `gemini-auto.sh`: Automation script (Cleaned version without API keys).
-- `install.sh`: Generic installation script for project dependencies.
+## Featured Scripts
+- **Gemini Auto Key Rotator**: A script designed to manage API key quotas by automatically rotating keys when limits are reached.
+- **Universal Installer**: A generic bash script for setting up project dependencies across environments.
 
-## Usage
-Ensure the scripts have executable permissions:
-```bash
-chmod +x <script_name>.sh
-./<script_name>.sh
-```
+## Security Note
+All scripts have been scrubbed of hardcoded API keys and credentials. Always use environment variables for sensitive data.
